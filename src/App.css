@@ -1,0 +1,53 @@
+html, body, #root, #root>div{
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+
+
+#body{  
+  height: 100vh;
+  width: 1024px;
+  margin: 0 auto;    
+  min-height: 100vh;
+  padding-bottom: 24px;
+
+}
+#header {
+  height: 64px;
+ 
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+}
+
+#header-area{
+  width: 1024px;
+  height: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+#header-area img {
+  width: 128px;
+  height: 36px;
+}
+
+
+
+#footer{
+  height: 200px;
+  background-color: rgb(230,230,230);
+
+}
+
+
+
